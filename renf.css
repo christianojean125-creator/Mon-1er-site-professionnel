@@ -135,3 +135,37 @@ footer{
   font-size: 16px;
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  .intro {
+    height: auto;            /* la hauteur s'adapte au contenu */
+    padding-bottom: 24px;
+  }
+
+  .hero {
+    margin-top: 24px;
+    padding: 0 12px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero a {
+    font-size: 18px;
+  }
+
+  .menu {
+    padding: 0;
+  }
+
+  .skills {
+    flex-wrap: wrap;         /* les étiquettes passent à la ligne */
+    justify-content: center;
+    gap: 8px;
+    padding: 0;
+  }
+
+  section {
+    margin: 8px;
+  }
+}
