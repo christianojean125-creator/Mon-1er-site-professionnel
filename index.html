@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolie</title>
+    <link rel="stylesheet" href="renf.css">
+</head>
+<body>
+
+    <header class="intro">
+        <nav class="navbar">
+            <a href="#" class="logo">christiano</a>
+            <ul class="menu">
+                <li><a href="#a-propos">A propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h1>Etudiant en informatique, futur developpeur web.</h1>
+            <p>J'apprends a construire des sites propres,rapides et accessibles.</p>
+            <a href="#projets" class="btn">voir mes projets</a>
+        </div>
+    </header>
+
+    <main>
+          <p id="salutation"></p>
+<button id="btn-theme">Changer de thème</button>
+        <section id="a-propos">
+            <h2>A propos</h2>
+            <p>
+                Je me suis en licence d'informatique. J'etudie les algorithmes, l'electronique, l'architectures des ordinateurs et le web.
+                Mon objectif : maitriser HTML, CSS puis Javascript.
+            </p>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript(en cours)</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+        <section id="projets">
+            <h2>Projets</h2>
+            <div class="projets-grid">
+                <article class="carte">
+                    <h3>Ce portofolio</h3>
+                    <p>Premier site en HTML et CSS, responsive.</p>
+                </article>
+
+                <article class="carte">
+                    <h3>To-do list</h3>
+                    <p>A venir : manipulation du DOM en Javascript.</p>
+                </article>
+
+                <article class="carte">
+                    <h3>Appli meteo</h3>
+                    <p>A venir : appel d'API avec fetch.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="input">
+                <h2>Contact</h2>
+                <form>
+                    <div class="champ">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom">
+                    </div>
+
+                    <div class="champ">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Entrez votre email">
+                    </div>
+
+                    <div class="champ">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Envoyer un message"></textarea>
+                    </div>
+
+                    <button type="submit">envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div>
+        html {
+  scroll-behavior: smooth;
+}
+        <footer>
+            @ 2026 christiano
+        </footer>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
